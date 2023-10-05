@@ -27,6 +27,61 @@ Here are the available properties for the Liquid Chart component:
 | `statistic`    | `object` | `{}`    | Customize label style              |
 | `sizing`       | `object` | `{}`    | Customize chart sizing             |
 
+
+## Example
+
+```json
+{
+  "value": 80,
+  "max": 100,
+  "isPercentage": false,
+  "unit": "liter",
+  "formatt": "##.##",
+  "shape": "circle",
+  "outline": {
+    "border": 1,
+    "color": "",
+    "distance": 1
+  },
+  "liquid-style": {
+    "fill": "#8DBEE7",
+    "lineDash": [
+      0,
+      0
+    ],
+    "lineWidth": 1,
+    "shadowBlur": 10,
+    "shadowColor": "",
+    "strokeOpacity": 1,
+    "shadowOffsetX": 5,
+    "shadowOffsetY": 5,
+    "stroke": "#87B1D3"
+  },
+  "wave": {
+    "count": 3,
+    "length": 122
+  },
+  "statistic": {
+    "content": {
+      "style": {
+        "fill": "#000",
+        "fontSize": 22,
+        "lineWidth": 2,
+        "opacity": 1,
+        "shadowBlur": 1,
+        "shadowColor": "#000"
+      }
+    }
+  },
+"sizing": {
+  "autoFit": true,
+  "radius": 1,
+  "height": 400,
+  "width": 400
+}
+}
+
+
 ## license
 
 [MIT License](https://opensource.org/licenses/MIT)
