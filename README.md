@@ -9,10 +9,11 @@ The Liquid Chart component is a versatile tool for visualizing liquid levels in 
 <img src="Liquid-Chart.png" alt="CLiquid-Chart" width="100%" />
 
 
- 
-## Props
+## Properties
 
-p| Property       | Type     | Default | Affects                            |
+Here are the available properties for the Liquid Chart component:
+
+| Property       | Type     | Default | Affects                            |
 | -------------- | -------- | ------- | ---------------------------------- |
 | `value`        | `number` | 0       | Value of your liquid level        |
 | `max`          | `number` | 100     | Maximum level of your tank         |
@@ -23,7 +24,8 @@ p| Property       | Type     | Default | Affects                            |
 | `outline`      | `object` | `{}`    | Customize outline style            |
 | `liquid-style`| `object` | `{}`    | Customize liquid style             |
 | `wave`         | `object` | `{}`    | Customize wave length and count    |
-
+| `statistic`    | `object` | `{}`    | Customize label style              |
+| `sizing`       | `object` | `{}`    | Customize chart sizing             |
 
 ## license
 
