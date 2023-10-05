@@ -6,7 +6,7 @@ A module that adds components to the Perspective module.
 
 The Liquid Chart component is a versatile tool for visualizing liquid levels in tanks, providing you with the flexibility to customize various aspects of the chart.
 
-<img src="Liquid-Chart.svg" alt="CLiquid-Chart" width="100%" />
+<img src="Liquid-Chart.gif" alt="CLiquid-Chart" width="100%" />
 
 
 ## Properties
