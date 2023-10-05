@@ -79,7 +79,7 @@ Here are the available properties for the Liquid Chart component:
   "height": 400,
   "width": 400
 }
-}}
+}
 
 ## license
 
